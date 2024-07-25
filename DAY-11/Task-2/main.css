@@ -1,0 +1,43 @@
+.taskTwo{
+    border: 2px solid #ccc;
+    display: block;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.eventsIn h4{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.eventsIn{
+    border: 2px solid #eee;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.form-outline{
+    margin-bottom: 50px;
+}
+.form-outline input:focus{
+    box-shadow: 0px 0px 10px #eee;
+    border: 1px solid #eee;
+}
+.form-outline input{
+    padding: 10px;
+}
+@media screen and (max-width: 767px) {
+    .addCenter {
+        text-align: center;
+    }
+    .taskTwo{
+        padding: 20px;
+    }
+    .form-outline{
+        margin-bottom: 20px;
+    }
+}
